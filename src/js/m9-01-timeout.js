@@ -8,6 +8,10 @@ const logMessage = () => {
 
 console.log('Before calling setTimeout');
 
+setTimeout(() => {
+  console.log('Inside of callback for setTimeout');
+}, 2000);
+
 console.log('After calling setTimeout');
 
 // Clearing timeout with clearTimeout(timeoutId)
