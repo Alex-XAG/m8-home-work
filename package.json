@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Alex-XAG.github.io/m8-hw",
+  "homepage": "https://Alex-XAG.github.io/m9-async-date-timeout",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /m8-hw/"
+    "build": "parcel build src/*.html --public-url /m9-async-date-timeout/"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,6 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "@vimeo/player": "^2.19.0",
     "lodash.throttle": "^4.1.1",
     "modern-normalize": "^1.1.0",
     "simplelightbox": "^2.13.0"
