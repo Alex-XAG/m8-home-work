@@ -9,9 +9,15 @@ const logger = time => console.log(`log every ${time}ms - ${Date.now()}`);
 //  Clearing of interval with clearInterval(intervalId)
 
 // const intervalId = setInterval(logger, 2000, 2000);
-// const shouldCancelInterval = Math.random() > 0.3
+// const shouldCancelInterval = Math.random() > 0.3;
 // console.log(shouldCancelInterval);
 
 // if (shouldCancelInterval) {
-//     clearInterval(intervalId)
+//   clearInterval(intervalId);
 // }
+
+console.log('Before calling setTimeout()');
+setTimeout(() => {
+  console.log('Calling of timeout callback');
+}, 0);
+console.log('After calling setTimeout()');
