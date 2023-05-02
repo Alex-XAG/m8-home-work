@@ -16,3 +16,16 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.success {
+  display: none;
+}
+
+.is-visible {
+  display: block;
+  width: 250px;
+  padding: 20px;
+  background-color: aqua;
+  border-radius: 7px;
+  text-align: center;
+}
